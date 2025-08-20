@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feria de las Flores</title>
   
-  
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  
   <style>
     body {
       margin: 0;
@@ -51,6 +49,7 @@
       box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
     }
 
+   
     .actividades {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -78,6 +77,7 @@
       margin-bottom: 10px;
     }
 
+    
     button {
       background: linear-gradient(45deg, #ff6699, #ffccff);
       color: white;
@@ -95,6 +95,7 @@
       transform: scale(1.05);
     }
 
+   
     form {
       background: #fff0f5;
       border-radius: 20px;
@@ -127,10 +128,9 @@
     iframe {
       border-radius: 20px;
       margin: 20px 0;
-      border: none;
-      max-width: 100%;
     }
 
+    
     footer {
       background: url("https://img.freepik.com/vector-premium/marco-floral-rosas-rosadas_53876-115469.jpg") no-repeat center;
       background-size: cover;
@@ -176,57 +176,35 @@
     footer a:hover {
       text-decoration: underline;
     }
-
-    
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 40px;
-      }
-
-      header p {
-        font-size: 16px;
-      }
-
-      form {
-        width: 90%;
-      }
-
-      iframe {
-        width: 100%;
-        height: 250px;
-      }
-    }
   </style>
 </head>
 <body>
   
   <header>
-    <h1>🌸 Feria de las Flores 🌸</h1>
-    <p>La fiesta más colorida y tradicional de Medellín</p>
+    <h1>Feria de las Flores </h1>
+    <p>La fiesta mas colorida y tradicional de Medellin</p>
   </header>
 
   <h2>Bienvenidas y bienvenidos a la Feria de las Flores</h2>
-  <div style="text-align:center;">
-    <img src="festivas2.jpg" alt="Feria de las Flores en Medellín" width="450" height="400">
-  </div>
+  <center><img src="festivas2.jpg" alt="feria de las flores" width="450" height="400"></center>
 
   <h2>Orden de Actividades</h2>
   <div class="actividades">
     <div class="card">
       <h3>10:30 AM - Apertura</h3>
-      <p>Desfile de Silleteros y exhibición de silletas.</p>
+      <p>Desfile de Silleteros y Exhibicion de silletas.</p>
     </div>
     <div class="card">
-      <h3>12:30 PM - Exhibición floral</h3>
-      <p>Orquídeas, aves exóticas y naturaleza viva.</p>
+      <h3>12:30 PM - Exhibicion floral</h3>
+      <p>Orquideas, aves exoticas y naturaleza viva.</p>
     </div>
     <div class="card">
-      <h3>2:30 PM - Carros clásicos</h3>
-      <p>Pasarela de automóviles exclusivos.</p>
+      <h3>2:30 PM - Carros clasicos</h3>
+      <p>Pasarela de automoviles exclusivos.</p>
     </div>
     <div class="card">
       <h3>4:00 PM - Cabalgatas</h3>
-      <p>Muestras equinas típicas de Antioquia.</p>
+      <p>Muestras equinas tipicas de Antioquia.</p>
     </div>
     <div class="card">
       <h3>6:00 PM - Comparsas</h3>
@@ -234,20 +212,16 @@
     </div>
   </div>
 
-  <div style="text-align:center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sU-XIoh3hWw" title="Video Feria de las Flores" allowfullscreen></iframe>
-  </div>
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/sU-XIoh3hWw" allowfullscreen></iframe></center>
 
-  <h2>Ubicación del Desfile</h2>
-  <div style="text-align:center;">
-    <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2sco!4v1755617390070!5m2!1ses!2sco!6m8!1m7!1sY8y4L9XEBSAU8ltHYYZw2A!2m2!1d6.242467905417032!2d-75.57672153973473!3f69.4921832227064!4f5.62154650002951!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
-  </div>
+  <h2>Ubicacion del Desfile</h2>
+  <center><iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2sco!4v1755617390070!5m2!1ses!2sco!6m8!1m7!1sY8y4L9XEBSAU8ltHYYZw2A!2m2!1d6.242467905417032!2d-75.57672153973473!3f69.4921832227064!4f5.62154650002951!5f0.7820865974627469" width="600" height="450" allowfullscreen loading="lazy"></iframe></center>
 
   <h2>Formulario de contacto</h2>
   <form action="pagina.html" method="post">
     <label for="name">Nombre:</label><br>
     <input type="text" id="name" name="name" required><br>
-    <label for="email">Correo electrónico:</label><br>
+    <label for="email">Correo electronico:</label><br>
     <input type="email" id="email" name="email" required><br>
     <label for="message">Mensaje:</label><br>
     <textarea id="message" name="message" rows="4" required></textarea><br>
@@ -255,28 +229,27 @@
   </form>
 
   <h2>Compra de boletas</h2>
-  <div style="text-align:center;">
-    <p>Adquiere tus entradas en la boletería oficial:</p>
-    <a href="https://www.tuboleta.com/" target="_blank" rel="noopener noreferrer">
-      <button type="button">Comprar Boletas Aquí</button>
+  <center>
+    <p>Adquiere tus entradas en la boleteria oficial:</p>
+    <a href="https://www.tuboleta.com/" target="_blank">
+      <button>Comprar Boletas Aqui </button>
     </a>
-  </div>
+  </center>
 
+ 
   <footer>
-    <p>&copy; 2025 Feria de las Flores - Medellín, Colombia</p>
+    <p>&copy; 2025 Feria de las Flores - Medellin, Colombia</p>
     <ul>
       <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" height="22">
-        <a href="https://wa.me/573001112233" target="_blank" rel="noopener noreferrer">Santiago Varelas Agudelo</a>
+        <a href="https://wa.me/573001112233" target="_blank"> Santiago Varelas Agudelo</a>
       </li>
       <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" height="22">
-        <a href="https://wa.me/573001112244" target="_blank" rel="noopener noreferrer">Jonathan Santiago Arango</a>
+        <a href="https://wa.me/573001112244" target="_blank"> Jonathan Santiago Arango</a>
       </li>
-      <li>📞 Contacto: +57 300 000 0000</li>
+      <li>Contacto: +57 300 000 0000</li>
     </ul>
   </footer>
 </body>
 </html>
-
-  
